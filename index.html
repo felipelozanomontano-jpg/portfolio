@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="workspace">
+    <header class="header-block">
+      <div class="header-left">
+        <p class="prompt-line">
+          <span class="prompt-user">guest@site</span><span class="prompt-sep">:</span><span class="prompt-path">~</span><span class="prompt-dollar">$</span>
+          whoami<span class="cursor"></span>
+        </p>
+        <a class="banner-title-link" href="index.html"><h1 class="banner-title">Felipe Lozano</h1></a>
+        <p class="banner-sub">// under construction — content loading soon</p>
+      </div>
+
+      <div class="social-links">
+        <a class="social-box" href="https://www.linkedin.com/in/felipe-lozano-4637a9407" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" class="icon-linkedin" aria-hidden="true">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a class="social-box" href="https://github.com/felipelozanomontano-jpg" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" class="icon-github" aria-hidden="true">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.230.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <button class="social-box theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section-title">
+        <span class="section-label">cat ~/for-visitors.md</span>
+        <span class="rule"></span>
+      </div>
+      <div class="visitors-row">
+        <p class="visitors-text">Curious how I learned to create this page? Check out this small collection of resources :)</p>
+        <a class="btn btn-resources" href="resources.html">
+          <svg class="icon-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          </svg>
+          resources
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <span class="section-label">whoami</span>
+        <span class="rule"></span>
+      </div>
+      <div class="whoami-row">
+        <div class="bio-text">
+          <p>Hi!! I'm Felipe, a Computer Engineering student at UF who enjoys developing small and creative CS/CE related projects</p>
+          <p>Most of my time goes into college classes, experimenting with AI tools, random side projects, learning software development, and any idea related whatever random hyperfixation I have going on that week</p>
+          <p>When I'm not working on something, I'm either at the gym, racing on my racing sim, traveling, playing video games, or out hanging out with my friends</p>
+          <p>Feel free to reach out to me on LinkedIn!</p>
+        </div>
+        <div class="photo-placeholder">
+          <img src="felipe.png" alt="Felipe Lozano">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <span class="section-label">cat ~/random.md</span>
+        <span class="rule"></span>
+      </div>
+      <div class="link-row">
+        <a class="btn link-box" href="travel.html">Travel</a>
+        <a class="btn link-box" href="music.html">Music</a>
+        <a class="btn link-box" href="resume.html">Resume</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <span class="section-label">cat ~/experience.md</span>
+        <span class="rule"></span>
+      </div>
+      <p class="experience-note">The professional side of all of this</p>
+      <div class="experience-list">
+        <div class="experience-item">
+          <div class="company-logo">
+            <img src="identidad-logo.png" alt="Identidad Telecom logo">
+          </div>
+          <div class="company-info">
+            <p class="company-name">Identidad Telecom</p>
+            <p class="company-role">Software Engineering Intern</p>
+            <p class="company-location">Miami, Florida</p>
+          </div>
+          <span class="company-dates">06/2026 – 08/2026</span>
+        </div>
+        <div class="experience-pending">only time will tell</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <span class="section-label">cat ~/lore.md</span>
+        <span class="rule"></span>
+      </div>
+
+      <div class="lore-header">
+        <p class="lore-title">lore</p>
+        <p class="lore-subtitle">(my life's faqs)</p>
+      </div>
+
+      <div class="lore-category">
+        <span class="lore-tag">me</span>
+        <div class="lore-questions">
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>so, who are you?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>I am Felipe Lozano, and I am currently a Computer Engineering major enrolled in a program called Gator Engineering at Santa Fe, and plan on transitioning fully to UF by the start of second semester, rather than having to wait for the traditional 2-year transfer program. Outside of that I love to work on little side projects like this site, play video games, get on my racing simulator, go to the gym, and hang out with friends!</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>why computer engineering?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>Growing up, I have always loved video games, and around the time when I turned 11, I wanted to get into PC gaming. So I went to my brother for help, and he helped me choose parts, and I saved for about a year to finally get one, and with his help we built it. As the years progressed, my love for computers stayed, and I eventually got a new PC and built that one by myself. The intricacy that a computer presents is so fascinating that when it came time to choose a major, I knew which one to choose (especially with the countless opportunities AI has presented). And with the internship I did over the summer of 2026 and these little side projects, I knew my choice was the right one.</p>
+              <div class="faq-image-row">
+                <div class="faq-image-block">
+                  <img src="lore-pc-build-1.png" alt="Building a PC">
+                </div>
+                <div class="faq-image-block">
+                  <img src="lore-pc-build-2.png" alt="Finished PC build lit up">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>what do you do outside of school?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>Mostly hang out with friends, go to the gym, work on projects like this website, race on my simulator, play video games, and travel.</p>
+              <div class="faq-image-row">
+                <div class="faq-image-block">
+                  <img src="lore-outside-1.png" alt="At the gym">
+                </div>
+                <div class="faq-image-block">
+                  <img src="lore-outside-2.png" alt="At the gym">
+                </div>
+                <div class="faq-image-block">
+                  <img src="lore-outside-3.png" alt="Racing simulator setup">
+                </div>
+                <div class="faq-image-block">
+                  <img src="lore-outside-4.png" alt="With friends">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>where do you see yourself in a few years?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>Honestly, I don't know yet. I really hope I've been able to create something great with whatever skills I've learned and been developing. Hopefully something entrepreneurial, but I do want to hopefully make it to a big-name internship like Nvidia, Apple, Google, OpenAI, etc. That would be a dream come true, but I know how competitive they are, so all I can really do is just take every opportunity I get to learn.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lore-category">
+        <span class="lore-tag">work</span>
+        <div class="lore-questions">
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>what are you working on right now?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>Whatever small projects I can think of and have the urge to build. This site is a great example, though, as something I will continue working on for these next few years as I document what I am able to accomplish. I do hope to maybe get into vibe coding games and seeing what I could do, but that's something for another time.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>How'd you land an internship going into your freshman year of college?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>A large amount of luck, proof of being a hard worker, and initiative to learn and work hard. Many personal things had happened around this time, and as a result of this, I reached out and was very nicely offered to intern. Obviously, if you have a lot of experience from maybe prior internships or other activities, it looks good, but presentation of oneself I found was very important when trying to obtain something that is considered exclusive or rare for someone entering their first year of college.</p>
+              <div class="faq-image-row">
+                <div class="faq-image-block">
+                  <img src="lore-internship-1.png" alt="Signing into Identidad Telecom's site">
+                </div>
+                <div class="faq-image-block">
+                  <img src="lore-internship-2.png" alt="Dog at the office">
+                  <p class="faq-caption">The office dog</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>how do you learn new stuff?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>Mostly self-taught by using YouTube, AI, TikTok, and other social media platforms. Find cool creators or pages that can teach you things you want to learn, or even just go into an AI like Claude and ask how to get started, and it provides great tips!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lore-category">
+        <span class="lore-tag">random</span>
+        <div class="lore-questions">
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>what's your favorite food?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>Either a Publix Chicken Tender Sub with Munster cheese, shredded lettuce, toasted, and tossed in Buffalo sauce, or Carne Asada Fries from any local Mexican restaurant.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>pc or console?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>PC, no questions asked, they can be used for more than gaming, and I don't need to pay to play online. Though I did buy a PS5 to play GTA 6 on launch :p</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>coffee or energy drinks?</span>
+              <span class="faq-icons">
+                <span class="faq-hash">#</span>
+                <span class="faq-toggle">+</span>
+              </span>
+            </button>
+            <div class="faq-answer" style="display: none">
+              <p>Normally I'd say neither, but I'm currently running off a White Monster Energy, so I'll go energy drinks. Though I rarely drink either one since I don't like coffee, and energy drinks just aren't good for you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="lore.js"></script>
+</body>
+</html>
