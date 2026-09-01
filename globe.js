@@ -97,7 +97,7 @@ let countriesData = null;
 
 function resize() {
   width = globeEl.clientWidth;
-  height = 600;
+  height = globeEl.clientHeight;
   const dpr = window.devicePixelRatio || 1;
   canvas.width = width * dpr;
   canvas.height = height * dpr;
