@@ -120,7 +120,9 @@ body {
   }
 
   .visitors-row {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
   }
 
   .btn-resources {
